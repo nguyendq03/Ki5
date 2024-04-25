@@ -1,0 +1,44 @@
+Step 1: Install Packages
+	Microsoft.EntityFrameworkCore.SqlServer (6.0.1)
+	Microsoft.EntityFrameworkCore.Design (6.0.1)
+	Microsoft.Extensions.Configuration.Json (6.0.0)
+
+Step 2: Set up appsettings.json
+Add JavaScript JSON Configuration File and named it appsettings.json
+*Change property of appsettings.json to "Copy if newer"
+
+{
+  "Connnectionstrings": {
+    "MyDB": "server=DESKTOP-GIUFTSQ;database=MyDB;uid=sa;pwd=55555"
+  }
+}
+
+Step 3: Generate Models in Terminal
+dotnet tool install --global dotnet-ef --version 6.0.1
+
+
+Trust Server Certificate=true ở sau ...DB"
+//all table
+dotnet ef dbcontext scaffold "Server=localhost;uid=sa;pwd=sa;database=MyDB" Microsoft.EntityFrameworkCore.SqlServer --output-dir Models
+	
+//select table
+dotnet ef dbcontext scaffold "Server=LAPTOP-A4UACC6V\SQLEXPRESS;uid=sa;pwd=sa;database=Northwind;TrustServerCertificate=true"-t Categories -t Products -t Suppliers  Microsoft.EntityFrameworkCore.SqlServer --output-dir Models
+
+Step 4: Change default config in OnConfiguring function  
+if (!optionsBuilder.IsConfigured) {
+       var builder = new ConfigurationBuilder()
+                        .SetBasePath(Directory.GetCurrentDirectory())
+                        .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
+       IConfigurationRoot configuration = builder.Build();
+       optionsBuilder.UseSqlServer(configuration.GetConnectionString("MyDB"));
+}
+
+
+dotnet ef migrations add “InitialDB”
+dotnet ef database update
+
+---- Slide Link ----
+https://www.canva.com/design/DAFXFvFdwRo/wdipfvupiKAioVX2g38vlA/view?utm_content=DAFXFvFdwRo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+dotnet ef migrations add “InitialDB”
+dotnet ef database update

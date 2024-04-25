@@ -1,0 +1,48 @@
+﻿@model AutomobileLibrary.DataAccess.Car
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Car</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            CarId
+        </dt>
+        <dd class="col-sm-10">
+            @Model.CarId
+        </dd>
+        <dt class="col-sm-2">
+            CarName
+        </dt>
+        <dd class="col-sm-10">
+            @Model.CarName
+        </dd>
+        <dt class="col-sm-2">
+            Manufacturer
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Manufacturer
+        </dd>
+        <dt class="col-sm-2">
+           Price
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Price
+        </dd>
+        <dt class="col-sm-2">
+            ReleasedYear
+        </dt>
+        <dd class="col-sm-10">
+            @Model.ReleasedYear 
+        </dd>
+    </dl>
+</div>
+<div>
+    <a href="/Cars/Edit/@Model.CarId">Edit</a>
+    <a href="/Cars/Index">Back to List</a>
+</div>

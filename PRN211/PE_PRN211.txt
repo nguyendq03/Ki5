@@ -1,0 +1,20 @@
+-Lệnh chạy trong terminal. Nhớ đổi server, database với pwd để đi thi nhé: 
+dotnet ef dbcontext scaffold "server =DESKTOP-3P39UI8; database = MySaleDB;uid=sa;pwd=thanhmt20;" Microsoft.EntityFrameworkCore.SqlServer --output-dir Models
+
+-Nội dung trong file appsettings. Nhớ đổi server, database với pwd nha:
+{
+  "ConnectionStrings": {
+    "MyCnn": "server=LAPTOP-EBRVPJH1;database=MySaleDB;uid=sa;pwd=123456"
+  }s
+}
+
+-Code thay thế của hàm OnConfiguring trong DBContext. Kiểm tra tên file appsettings với string dòng cuối nhé: 
+var builder = new ConfigurationBuilder()
+                              .SetBasePath(Directory.GetCurrentDirectory())
+                              .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
+            IConfigurationRoot configuration = builder.Build();
+            optionsBuilder.UseSqlServer(configuration.GetConnectionString("MyCnn"));
+
+-Generate models
+dotnet ef dbcontext scaffold "server =localhost; database = Project3_SE1631;uid=sa;pwd=123;" Microsoft.EntityFrameworkCore.SqlServer --output-dir Models
+

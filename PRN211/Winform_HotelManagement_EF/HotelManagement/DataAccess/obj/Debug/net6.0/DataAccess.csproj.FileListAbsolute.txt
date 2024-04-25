@@ -1,0 +1,14 @@
+D:\FPTUniversity\Term_5\PRN211\Winform_HotelManagement_EF\HotelManagement\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+D:\FPTUniversity\Term_5\PRN211\Winform_HotelManagement_EF\HotelManagement\DataAccess\bin\Debug\net6.0\DataAccess.runtimeconfig.json
+D:\FPTUniversity\Term_5\PRN211\Winform_HotelManagement_EF\HotelManagement\DataAccess\bin\Debug\net6.0\DataAccess.dll
+D:\FPTUniversity\Term_5\PRN211\Winform_HotelManagement_EF\HotelManagement\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+D:\FPTUniversity\Term_5\PRN211\Winform_HotelManagement_EF\HotelManagement\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+D:\FPTUniversity\Term_5\PRN211\Winform_HotelManagement_EF\HotelManagement\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPTUniversity\Term_5\PRN211\Winform_HotelManagement_EF\HotelManagement\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+D:\FPTUniversity\Term_5\PRN211\Winform_HotelManagement_EF\HotelManagement\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+D:\FPTUniversity\Term_5\PRN211\Winform_HotelManagement_EF\HotelManagement\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\FPTUniversity\Term_5\PRN211\Winform_HotelManagement_EF\HotelManagement\DataAccess\obj\Debug\net6.0\DataAccess.dll
+D:\FPTUniversity\Term_5\PRN211\Winform_HotelManagement_EF\HotelManagement\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+D:\FPTUniversity\Term_5\PRN211\Winform_HotelManagement_EF\HotelManagement\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+D:\FPTUniversity\Term_5\PRN211\Winform_HotelManagement_EF\HotelManagement\DataAccess\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache
+D:\FPTUniversity\Term_5\PRN211\Winform_HotelManagement_EF\HotelManagement\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll

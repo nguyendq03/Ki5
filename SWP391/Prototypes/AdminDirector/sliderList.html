@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silde List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Danh sách slider</h1>
+
+        <div class="search-filter">
+            <form action="">
+                <label for="search">Tìm kiếm:</label>
+                <input type="text" id="search" name="search" placeholder="Title or Backlink">
+                <button type="submit">Tìm kiếm</button>
+            </form>
+        </div>
+
+
+
+        <table class="slider-list">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Tên</th>
+                    <th>Ảnh</th>
+                    <th>Backlink</th>
+                    <th>Trạng thái</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Slider 1</td>
+                    <td><img src="image1.jpg" alt="Image 1"></td>
+                    <td><a href="http://example.com">Example</a></td>
+                    <td><select id="filter-status" name="status">
+
+                            <option value="">Hiển thị</option>
+                            <option value="">Ẩn</option>
+                        </select></td>
+
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Slider 2</td>
+                    <td><img src="image2.jpg" alt="Image 2"></td>
+                    <td><a href="http://example2.com">Example 2</a></td>
+                    <td><select id="filter-status" name="status">
+
+                            <option value="">Hiển thị</option>
+                            <option value="">Ẩn</option>
+                        </select></td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+
+
+        <div class="pagination-info">
+        </div>
+
+        <div id="edit-modal" class="modal">
+        </div>
+    </div>
+
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Search and filter bar */
+        .search-filter {
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        .search-filter label {
+            margin-right: 10px;
+        }
+
+        .search-filter input[type="text"] {
+            padding: 5px 10px;
+            border: 1px solid #ccc;
+            margin-right: 10px;
+        }
+
+        .search-filter button {
+            padding: 5px 10px;
+            background-color: #ddd;
+            border: 1px solid #ccc;
+            cursor: pointer;
+        }
+
+        .search-filter select {
+            padding: 5px 10px;
+            border: 1px solid #ccc;
+        }
+
+        /* Paginator */
+        .paginator {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .paginator a {
+            padding: 5px 10px;
+            border: 1px solid #ccc;
+            margin-right: 10px;
+            text-decoration: none;
+        }
+
+        .paginator a.active {
+            background-color: #ddd;
+        }
+
+        /* Slider list table */
+        .slider-list {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .slider-list th,
+        .slider-list td {
+            padding: 10px;
+            border: 1px solid #ccc;
+    </style>
+
+</body>
+
+</html>

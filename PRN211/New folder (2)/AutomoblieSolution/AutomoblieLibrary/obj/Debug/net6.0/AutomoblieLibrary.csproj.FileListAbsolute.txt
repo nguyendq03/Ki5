@@ -1,0 +1,14 @@
+C:\Users\Asus\Desktop\AutomoblieSolution\AutomoblieLibrary\bin\Debug\net6.0\AutomoblieLibrary.deps.json
+C:\Users\Asus\Desktop\AutomoblieSolution\AutomoblieLibrary\bin\Debug\net6.0\AutomoblieLibrary.runtimeconfig.json
+C:\Users\Asus\Desktop\AutomoblieSolution\AutomoblieLibrary\bin\Debug\net6.0\AutomoblieLibrary.dll
+C:\Users\Asus\Desktop\AutomoblieSolution\AutomoblieLibrary\bin\Debug\net6.0\AutomoblieLibrary.pdb
+C:\Users\Asus\Desktop\AutomoblieSolution\AutomoblieLibrary\obj\Debug\net6.0\AutomoblieLibrary.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\AutomoblieSolution\AutomoblieLibrary\obj\Debug\net6.0\AutomoblieLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Desktop\AutomoblieSolution\AutomoblieLibrary\obj\Debug\net6.0\AutomoblieLibrary.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\AutomoblieSolution\AutomoblieLibrary\obj\Debug\net6.0\AutomoblieLibrary.AssemblyInfo.cs
+C:\Users\Asus\Desktop\AutomoblieSolution\AutomoblieLibrary\obj\Debug\net6.0\AutomoblieLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\AutomoblieSolution\AutomoblieLibrary\obj\Debug\net6.0\AutomoblieLibrary.dll
+C:\Users\Asus\Desktop\AutomoblieSolution\AutomoblieLibrary\obj\Debug\net6.0\refint\AutomoblieLibrary.dll
+C:\Users\Asus\Desktop\AutomoblieSolution\AutomoblieLibrary\obj\Debug\net6.0\AutomoblieLibrary.pdb
+C:\Users\Asus\Desktop\AutomoblieSolution\AutomoblieLibrary\obj\Debug\net6.0\AutomoblieLibrary.genruntimeconfig.cache
+C:\Users\Asus\Desktop\AutomoblieSolution\AutomoblieLibrary\obj\Debug\net6.0\ref\AutomoblieLibrary.dll

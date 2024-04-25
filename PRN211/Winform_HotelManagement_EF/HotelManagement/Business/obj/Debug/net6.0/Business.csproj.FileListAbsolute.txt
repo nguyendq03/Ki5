@@ -1,0 +1,11 @@
+D:\FPTUniversity\Term_5\PRN211\Winform_HotelManagement_EF\HotelManagement\Business\bin\Debug\net6.0\Business.deps.json
+D:\FPTUniversity\Term_5\PRN211\Winform_HotelManagement_EF\HotelManagement\Business\bin\Debug\net6.0\Business.dll
+D:\FPTUniversity\Term_5\PRN211\Winform_HotelManagement_EF\HotelManagement\Business\bin\Debug\net6.0\Business.pdb
+D:\FPTUniversity\Term_5\PRN211\Winform_HotelManagement_EF\HotelManagement\Business\obj\Debug\net6.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPTUniversity\Term_5\PRN211\Winform_HotelManagement_EF\HotelManagement\Business\obj\Debug\net6.0\Business.AssemblyInfoInputs.cache
+D:\FPTUniversity\Term_5\PRN211\Winform_HotelManagement_EF\HotelManagement\Business\obj\Debug\net6.0\Business.AssemblyInfo.cs
+D:\FPTUniversity\Term_5\PRN211\Winform_HotelManagement_EF\HotelManagement\Business\obj\Debug\net6.0\Business.csproj.CoreCompileInputs.cache
+D:\FPTUniversity\Term_5\PRN211\Winform_HotelManagement_EF\HotelManagement\Business\obj\Debug\net6.0\Business.dll
+D:\FPTUniversity\Term_5\PRN211\Winform_HotelManagement_EF\HotelManagement\Business\obj\Debug\net6.0\refint\Business.dll
+D:\FPTUniversity\Term_5\PRN211\Winform_HotelManagement_EF\HotelManagement\Business\obj\Debug\net6.0\Business.pdb
+D:\FPTUniversity\Term_5\PRN211\Winform_HotelManagement_EF\HotelManagement\Business\obj\Debug\net6.0\ref\Business.dll

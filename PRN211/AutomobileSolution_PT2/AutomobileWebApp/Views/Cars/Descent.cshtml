@@ -1,0 +1,90 @@
+﻿@model IEnumerable<AutomobileLibrary.DataAccess.Car>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                CarId
+            </th>
+            <th>
+                CarName
+            </th>
+            <th>
+                Manufacturer
+            </th>
+            <th>
+                Price
+            </th>
+            <th>
+                ReleasedYear
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            @if (item.CarId % 2 == 1 && ViewBag.Validation.Validate(@item.ReleasedYear))
+            {
+                <tr>
+                    <td>
+                        @item.CarId
+                    </td>
+                    <td>
+                        @item.CarName
+                    </td>
+                    <td>
+                        @item.Manufacturer
+                    </td>
+                    <td>
+                        @item.Price
+                    </td>
+                    <td>
+                        @item.ReleasedYear
+                    </td>
+                    <td>
+                        <a href="/Cars/Edit/@item.CarId">Edit</a> |
+                        <a href="/Cars/Details/@item.CarId">Details</a> |
+                        <a href="/Cars/Delete/@item.CarId">Delete</a>
+                    </td>
+                </tr>
+            }
+        }
+        @foreach (var item in Model)
+        {
+            @if (item.CarId % 2 == 0 && ViewBag.Validation.Validate(@item.ReleasedYear))
+            {
+                <tr>
+                    <td>
+                        @item.CarId
+                    </td>
+                    <td>
+                        @item.CarName
+                    </td>
+                    <td>
+                        @item.Manufacturer
+                    </td>
+                    <td>
+                        @item.Price
+                    </td>
+                    <td>
+                        @item.ReleasedYear
+                    </td>
+                    <td>
+                        <a href="/Cars/Edit/@item.CarId">Edit</a> |
+                        <a href="/Cars/Details/@item.CarId">Details</a> |
+                        <a href="/Cars/Delete/@item.CarId">Delete</a>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

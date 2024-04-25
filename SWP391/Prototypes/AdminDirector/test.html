@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Đánh Giá</title>
+<style>
+  body { font-family: Arial, sans-serif; }
+  .container { width: 80%; margin: auto; }
+  input, select, textarea { width: 100%; margin-bottom: 10px; }
+  .rating { display: flex; justify-content: space-between; width: 50%; }
+  .rating input { display: none; }
+  .rating label { cursor: pointer; }
+  .rating label:before { content: '☆'; font-size: 24px; }
+  .rating input:checked ~ label:before,
+  .rating label:hover ~ label:before { content: '★'; color: gold; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>VIẾT ĐÁNH GIÁ</h1>
+  <form>
+    <input type="text" placeholder="Họ và tên">
+    <input type="text" placeholder="Địa chỉ">
+    <input type="tel" placeholder="Số điện thoại">
+    <select>
+      <option value="male">Nam</option>
+      <option value="female">Nữ</option>
+    </select>
+    <div class="rating">
+      <input type="radio" id="star5" name="rating" value="5"><label for="star5"></label>
+      <input type="radio" id="star4" name="rating" value="4"><label for="star4"></label>
+      <input type="radio" id="star3" name="rating" value="3"><label for="star3"></label>
+      <input type="radio" id="star2" name="rating" value="2"><label for="star2"></label>
+      <input type="radio" id="star1" name="rating" value="1"><label for="star1"></label>
+    </div>
+    <textarea placeholder="Phản Hồi Của Bạn"></textarea>
+    <button type="submit">Gửi Đánh Giá</button>
+  </form>
+</div>
+</body>
+</html>
